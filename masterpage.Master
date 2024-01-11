@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterpage.master.cs" Inherits="JQuery_P.masterpage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="Wrapper">
+            <div class="header">
+                <h1>This is the Header of my new website</h1>
+                </div>
+            <div class="containt">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+                </div>
+            <div class="footer">
+                <h3>All right reserved with my Website &copy; 2023</h3>
+                </div>
+        </div>
+    </form>
+</body>
+</html>
